@@ -1,0 +1,98 @@
+.margin-left4 {
+  margin-left: 4%;
+}
+.margin-left4 li a {
+  color: white !important;
+}
+
+.vh100 {
+  height: 100vh;
+}
+
+.bg-banner {
+  background-image: url("../images/banner_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-banner .text-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 4%;
+  color: #ffffffee;
+}
+.bg-banner .text-banner h2 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 45px;
+}
+.bg-banner .text-banner h1 {
+  font-size: 75px;
+  background-image: url("../images/heading_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 60%;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  justify-content: flex-end;
+}
+.about img {
+  width: 90%;
+}
+
+.amazing {
+  padding: 5% 5% 5% 0;
+}
+.amazing .text1 {
+  color: rgba(128, 128, 128, 0.555);
+}
+.amazing .text2 {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.camels {
+  display: flex;
+  justify-content: space-between;
+}
+.camels .camel {
+  border: 1px solid black;
+  text-align: center;
+  padding: 3%;
+}
+.camels .camel p {
+  color: grey;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+.flex-center .card {
+  padding: 5% 0;
+  margin-bottom: 5%;
+  border: 0;
+  box-shadow: 1px 1px 10px 1px #000052;
+  align-items: center;
+}
+.flex-center .card img {
+  width: 70%;
+}
+.flex-center .card h5 {
+  font-size: 55px;
+}
+.flex-center .card p {
+  color: grey;
+}

@@ -1,0 +1,40 @@
+.title {
+  color: red;
+}
+
+.container-text {
+  background-image: url("https://cdn.mos.cms.futurecdn.net/Qh6sCKomswyNmQHpBiFKJ9.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container-text p {
+  color: red;
+}
+.container-text h4 {
+  color: blue;
+}
+.container-text h2 {
+  color: yellow;
+}
+.container-text hr {
+  width: 80%;
+}
+.container-text span {
+  color: grey;
+}
+
+.text2 p {
+  font-size: 22px;
+  font-weight: 800;
+  color: tomato;
+}
+
+.imgPaint, .card img {
+  width: 300px;
+  height: 300px;
+}

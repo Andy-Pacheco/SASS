@@ -1,0 +1,22 @@
+@mixin backgroundImage {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+@mixin center-column-justify {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+@mixin end {
+	display: flex;
+	justify-content: center;
+	justify-content: flex-end;
+}
+
+@mixin center-block-justify {
+	display: flex;
+	justify-content: center;
+}

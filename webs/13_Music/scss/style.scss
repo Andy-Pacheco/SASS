@@ -1,0 +1,226 @@
+@import "./variables.scss";
+@import "./mixin.scss";
+
+.bg-purpt {
+	background-color: $purpt;
+}
+
+.bg-purpl {
+	background-color: $purpl;
+}
+
+.bg-purpd {
+	background-color: $purpd;
+}
+
+.navbar {
+	position: absolute !important;
+	width: 100%;
+	top: 0;
+	padding: 1% 0;
+	z-index: 2;
+	ul {
+		width: 100%;
+		@include centercenter;
+		a {
+			color: white !important;
+			font-family: $rajdani;
+			letter-spacing: 1px;
+			&:hover {
+				transform: scale(1.2);
+			}
+		}
+		li {
+			padding: 0 0.5%;
+		}
+	}
+}
+
+.bg-header {
+	height: 100vh;
+	background-image: url("https://i0.wp.com/ymsalicante.com/wp-content/uploads/2018/09/dj2.jpg?w=1060&ssl=1");
+	@include bgstandard;
+}
+
+.header-col {
+	color: white;
+	@include centercenter;
+	text-align: center;
+	h3 {
+		font-family: $rajdani;
+		letter-spacing: 1px;
+	}
+	h1 {
+		font-size: 4rem;
+		font-family: $rock;
+		padding: 3% 0;
+	}
+	p {
+		font-family: $rajdani;
+		letter-spacing: 1px;
+	}
+}
+
+.precarrousel {
+	padding: 2%;
+	justify-content: center;
+	h3 {
+		font-family: $rajdani;
+		letter-spacing: 1px;
+	}
+	hr {
+		margin: 1% 2%;
+		border-top: 3px solid rgba(0, 0, 0, 0.1);
+	}
+}
+
+.carousel {
+	margin: 0 15%;
+	.tricarousel {
+		display: flex !important;
+		justify-content: space-evenly;
+		.card-body {
+			font-family: $rajdani;
+			text-align: center;
+		}
+	}
+}
+
+.bg-gafas {
+	background-image: url("../images/about.png");
+	height: 60vh;
+	@include bgstandard;
+	background-size: contain;
+}
+
+.gafas-card {
+	@include centercenter;
+	.card {
+		border: 0;
+		.card-body {
+			h2 {
+				font-weight: 800;
+			}
+			text-align: center;
+			font-family: $rajdani;
+			.btn {
+				color: white;
+				background-color: $purpd;
+				padding: 1% 12%;
+				&:hover {
+					background-color: $purpl;
+				}
+			}
+		}
+	}
+}
+
+.bg-djset {
+	background-image: url("https://i0.wp.com/ymsalicante.com/wp-content/uploads/2018/09/dj2.jpg?w=1060&ssl=1");
+	@include bgstandard;
+	height: 80vh;
+}
+
+.grid4 {
+	.container-fluid {
+		height: 100%;
+		.row {
+			height: 100%;
+			.bg-purpl,
+			.bg-purpd {
+				display: flex;
+				align-items: center;
+				.card {
+					border: 0;
+					font-family: $rajdani;
+					background-color: transparent;
+					color: white;
+					@include centercenter;
+					align-items: flex-start;
+					img {
+						width: 64px;
+					}
+					.card-body {
+						padding-left: 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+.bg-raper {
+	height: 80vh;
+	background-image: url("../images/countdown-bg.jpg");
+	@include bgstandard;
+	color: white;
+	text-align: center;
+	.info {
+		padding-top: 1%;
+		height: 100%;
+		.tomorrow {
+			font-family: $rock;
+		}
+		font-family: $rajdani;
+		.btn {
+			padding: 0.5% 3%;
+			&:hover {
+				background-color: $purpl;
+			}
+		}
+	}
+	.bg-wave {
+		height: 100%;
+		background-image: url("../images/footer-bg.png");
+		@include bgstandard;
+		background-position: top;
+		font-family: $rajdani;
+		.contact {
+			height: 50%;
+			display: flex;
+			justify-content: center;
+
+			.phone,
+			.mail {
+				@include bgstandard;
+				width: 32px;
+				height: 32px;
+			}
+			.phone {
+				background-image: url("../images/telefono.png");
+			}
+			.mail {
+				background-image: url("../images/correo.png");
+			}
+		}
+		.correos {
+			display: flex;
+			width: 100%;
+			justify-content: center;
+			.mail {
+				margin: 1%;
+				background-image: url("../images/correo.png");
+				@include bgstandard;
+				width: 32px;
+				height: 32px;
+			}
+		}
+		.vengaqueyaterminamos {
+			display: flex;
+			flex-direction: column;
+			align-items: baseline;
+			justify-content: center;
+			.btn {
+				background-color: grey;
+				border-top-left-radius: 0;
+				border-bottom-left-radius: 0;
+			}
+		}
+	}
+}
+
+@media (max-width: 991px) {
+	.bg-raper {
+		height: 100%;
+	}
+}

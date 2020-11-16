@@ -1,0 +1,249 @@
+.bg-purpt {
+  background-color: #5500bc79;
+}
+
+.bg-purpl {
+  background-color: #6126ca;
+}
+
+.bg-purpd {
+  background-color: #5400bc;
+}
+
+.navbar {
+  position: absolute !important;
+  width: 100%;
+  top: 0;
+  padding: 1% 0;
+  z-index: 2;
+}
+.navbar ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbar ul a {
+  color: white !important;
+  font-family: "Rajdhani", sans-serif;
+  letter-spacing: 1px;
+}
+.navbar ul a:hover {
+  transform: scale(1.2);
+}
+.navbar ul li {
+  padding: 0 0.5%;
+}
+
+.bg-header {
+  height: 100vh;
+  background-image: url("https://i0.wp.com/ymsalicante.com/wp-content/uploads/2018/09/dj2.jpg?w=1060&ssl=1");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-col {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.header-col h3 {
+  font-family: "Rajdhani", sans-serif;
+  letter-spacing: 1px;
+}
+.header-col h1 {
+  font-size: 4rem;
+  font-family: "Rock Salt", cursive;
+  padding: 3% 0;
+}
+.header-col p {
+  font-family: "Rajdhani", sans-serif;
+  letter-spacing: 1px;
+}
+
+.precarrousel {
+  padding: 2%;
+  justify-content: center;
+}
+.precarrousel h3 {
+  font-family: "Rajdhani", sans-serif;
+  letter-spacing: 1px;
+}
+.precarrousel hr {
+  margin: 1% 2%;
+  border-top: 3px solid rgba(0, 0, 0, 0.1);
+}
+
+.carousel {
+  margin: 0 15%;
+}
+.carousel .tricarousel {
+  display: flex !important;
+  justify-content: space-evenly;
+}
+.carousel .tricarousel .card-body {
+  font-family: "Rajdhani", sans-serif;
+  text-align: center;
+}
+
+.bg-gafas {
+  background-image: url("../images/about.png");
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.gafas-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gafas-card .card {
+  border: 0;
+}
+.gafas-card .card .card-body {
+  text-align: center;
+  font-family: "Rajdhani", sans-serif;
+}
+.gafas-card .card .card-body h2 {
+  font-weight: 800;
+}
+.gafas-card .card .card-body .btn {
+  color: white;
+  background-color: #5400bc;
+  padding: 1% 12%;
+}
+.gafas-card .card .card-body .btn:hover {
+  background-color: #6126ca;
+}
+
+.bg-djset {
+  background-image: url("https://i0.wp.com/ymsalicante.com/wp-content/uploads/2018/09/dj2.jpg?w=1060&ssl=1");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+.grid4 .container-fluid {
+  height: 100%;
+}
+.grid4 .container-fluid .row {
+  height: 100%;
+}
+.grid4 .container-fluid .row .bg-purpl,
+.grid4 .container-fluid .row .bg-purpd {
+  display: flex;
+  align-items: center;
+}
+.grid4 .container-fluid .row .bg-purpl .card,
+.grid4 .container-fluid .row .bg-purpd .card {
+  border: 0;
+  font-family: "Rajdhani", sans-serif;
+  background-color: transparent;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+}
+.grid4 .container-fluid .row .bg-purpl .card img,
+.grid4 .container-fluid .row .bg-purpd .card img {
+  width: 64px;
+}
+.grid4 .container-fluid .row .bg-purpl .card .card-body,
+.grid4 .container-fluid .row .bg-purpd .card .card-body {
+  padding-left: 0;
+}
+
+.bg-raper {
+  height: 80vh;
+  background-image: url("../images/countdown-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+}
+.bg-raper .info {
+  padding-top: 1%;
+  height: 100%;
+  font-family: "Rajdhani", sans-serif;
+}
+.bg-raper .info .tomorrow {
+  font-family: "Rock Salt", cursive;
+}
+.bg-raper .info .btn {
+  padding: 0.5% 3%;
+}
+.bg-raper .info .btn:hover {
+  background-color: #6126ca;
+}
+.bg-raper .bg-wave {
+  height: 100%;
+  background-image: url("../images/footer-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-family: "Rajdhani", sans-serif;
+}
+.bg-raper .bg-wave .contact {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+.bg-raper .bg-wave .contact .phone,
+.bg-raper .bg-wave .contact .mail {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+}
+.bg-raper .bg-wave .contact .phone {
+  background-image: url("../images/telefono.png");
+}
+.bg-raper .bg-wave .contact .mail {
+  background-image: url("../images/correo.png");
+}
+.bg-raper .bg-wave .correos {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.bg-raper .bg-wave .correos .mail {
+  margin: 1%;
+  background-image: url("../images/correo.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+}
+.bg-raper .bg-wave .vengaqueyaterminamos {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+}
+.bg-raper .bg-wave .vengaqueyaterminamos .btn {
+  background-color: grey;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+@media (max-width: 991px) {
+  .bg-raper {
+    height: 100%;
+  }
+}

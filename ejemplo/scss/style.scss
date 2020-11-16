@@ -1,0 +1,64 @@
+//variables
+$nombreVariable: red;
+$azul: blue;
+$transition: all 3s linear;
+$margin: 5px 25px;
+
+@mixin objeto1 {
+	font-size: 22px;
+	font-weight: 800;
+	color: tomato;
+}
+
+@mixin flex-c {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	color: red;
+}
+
+.banner {
+}
+
+.container-text {
+	background-image: url("https://cdn.mos.cms.futurecdn.net/Qh6sCKomswyNmQHpBiFKJ9.jpg");
+	background-size: cover;
+	height: 100vh;
+	background-position: center;
+	@include flex-c;
+	flex-direction: column;
+	p {
+		color: $nombreVariable;
+	}
+	h4 {
+		color: $azul;
+	}
+	h2 {
+		color: yellow;
+	}
+	hr {
+		width: 80%;
+	}
+	span {
+		color: grey;
+	}
+}
+
+.text2 {
+	p {
+		@include objeto1;
+	}
+}
+
+.imgPaint {
+	width: 300px;
+	height: 300px;
+}
+.card {
+	img {
+		@extend .imgPaint;
+	}
+}
